@@ -1,0 +1,125 @@
+.how__container {
+    padding-top: 110px;
+}
+
+.how__item_text {
+    color: #333D4B;
+    font-size: 24px;
+    font-weight: 900;
+    opacity: 0.6;
+    line-height: 32px;
+}
+
+.how__item {
+    display: flex;
+    gap: 25px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #b1b4b9;
+    opacity: 0.6;
+
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    &:active {
+        color: #333D4B;
+    }
+}
+
+.how__list {
+    max-width: 255px;
+    display: none;
+}
+
+.how__item_number {
+    color: #0E8784;
+    font-size: 24px;
+    opacity: 0.6;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.how__list2_title {
+    color: #83888F;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.how__list2_list_item {
+    padding: 24px 25px;
+    max-width: 328px;
+    border-radius: 8px;
+    background-color: #F4F1EB;
+    margin-top: 16px;
+
+    &:hover {
+        background-color: #0E8784;
+        color: #FFF;
+        cursor: pointer;
+    }
+}
+
+.how__list2_list_title {
+    color: #333D4B;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 8px;
+
+}
+
+.how__list2_item {
+    padding-bottom: 96px;
+}
+
+.how__list2_list_text {
+    max-width: 278px;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.how__list2_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &::after {
+        content: url('../../img/arrow.svg');
+    }
+}
+
+@media screen and (min-width:768px) {
+    .how__list2_list {
+        display: flex;
+        gap: 10px;
+    }
+    .how__list2_list_item {
+        max-width: 223px;
+        padding: 32px 26px 84px 25px;
+    }
+
+    .how__list2_list_text {
+        max-width: 172px;
+    }
+
+    .how__list2_title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+@media screen and (min-width:992px) {
+    .how__list{
+        display: block;
+    }
+    .how__container{
+        display: flex;
+        gap: 125px;
+        justify-content: center;
+    }
+}

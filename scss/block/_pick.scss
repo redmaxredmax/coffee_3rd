@@ -1,0 +1,117 @@
+.pick__container {
+    padding-top: 80px;
+    border-radius: 10px;
+    background-color: #2C343E;
+    padding-bottom: 26px;
+}
+
+.pick__wrapper {
+    display: flex;
+    margin-bottom: 67px;
+    display: none;
+}
+
+.pick__box {
+    height: 2px;
+    background-color: #FDD6BA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pick__box_item {
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+
+.pick__number {
+    margin-left: auto;
+    margin-right: auto;
+    color: #FDD6BA;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    width: 90px;
+    margin-bottom: 24px;
+}
+
+.pick__item_title {
+    max-width: 327px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.pick__item_text {
+    max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 56px;
+}
+
+@media screen and (min-width:762px) {
+    .pick__list {
+        display: flex;
+        gap: 20px;
+    }
+    .pick__wrapper{
+        display: inline-block;
+    }
+    .pick__item {
+        max-width: 223px;
+    }
+
+    .pick__number {
+        margin: 0;
+        margin-bottom: 42px;
+    }
+
+    .pick__item_title {
+        text-align: start;
+    }
+
+    .pick__item_text {
+        text-align: start;
+    }
+    
+    .pick__box {
+        min-width: 467px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .pick__list{
+        gap: 90px;
+    }
+    .pick__box{
+        width: 760px;
+    }
+    .pick__block{
+        padding-left: 85px;
+    }
+    .pick__item{
+        max-width: 285px;
+    }
+    .pick__number {
+        font-size: 72px;
+        line-height: 72px;
+    }
+    .pick__title{
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
